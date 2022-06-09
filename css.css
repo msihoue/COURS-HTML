@@ -1,0 +1,83 @@
+/*********************GLOBAL*******************/
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+
+/*************************entete********************/
+#entete {
+	height: 70px;
+	width: 100%;
+	background-color: rgb(133, 187, 237);
+	color: black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo{
+	margin-left: 20px;
+	border: 3px solid red;
+	padding: 10px;
+}
+.input_box{
+	display: flex;
+	border: 3px solid red;
+	flex: 1;
+	margin: 0 20px;
+	
+}
+
+input{
+	width: 80%;
+	padding: 10px;
+}
+
+.button_recherche{
+	width: 20%;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.droite{
+	border: 3px solid red;
+	margin-right: 20px;
+}
+
+.connexion{
+	padding: 10px;
+	cursor: pointer;
+}
+
+.inscription{
+	padding: 10px;
+	cursor: pointer;
+}
+
+.plus{
+	padding: 10px;
+	cursor: pointer;
+}
+
+
+
+.css{
+    background-color:azure;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.css a{
+	margin: 20px 0;
+}
+
+.css h1{
+	margin: 20px 0;
+}
+
+.css p{
+	margin: 20px 0;
+}
